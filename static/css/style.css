@@ -1,0 +1,72 @@
+body {
+  background-color: #000000;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333333;
+  color: #ffffff; /* Text color */
+}
+
+.card_edit {
+ background-color: #e1f2ff;
+  color:#000000; /* Text color */
+
+}
+
+.button1 {
+  border: none;
+  color: white; /* Change text color to white */
+  padding: 15px 32px;
+  text-align: center; /* Adjusted alignment to center */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+
+.navbar-custom {
+  background-color: #141414;
+}
+
+.navbar-custom .navbar-brand {
+  color: #e50914;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.movie-card {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 16rem; /* Set the desired width for the cards */
+        height: 100%; /* Set the desired height for the cards */
+}
+
+.movie-image {
+    height: 300px;
+    width: 200px;
+}
+
+
+.movie-name {
+  color: #ffffff; /* White text color */
+}
+
+.movie-desc {
+  color: #cccccc; /* Light gray text color */
+}
+
+.movie-year {
+  color: #ffffff; /* White text color */
+}
+
+.btn {
+  color: #ffffff; /* White text color */
+}
+
+

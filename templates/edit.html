@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+<form method="POST" enctype="multipart/form-data">
+
+    {% csrf_token %}
+
+    <style>
+        /* Add CSS styles here */
+        body {
+            color: white;
+        }
+    </style>
+
+    {{form.as_p}}
+    <button type="submit" class="save btn button1">Save</button>
+
+</form>
+{% endblock %}
