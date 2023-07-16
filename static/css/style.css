@@ -14,6 +14,11 @@ body {
 
 }
 
+.card-title {
+        height: 50px; /* Set a fixed maximum height for the description */
+        overflow: hidden; /* Hide any overflowing content */
+    }
+
 .card-text {
         height: 50px; /* Set a fixed maximum height for the description */
         overflow: hidden; /* Hide any overflowing content */
