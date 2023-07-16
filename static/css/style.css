@@ -14,6 +14,11 @@ body {
 
 }
 
+.card-text {
+        height: 50px; /* Set a fixed maximum height for the description */
+        overflow: hidden; /* Hide any overflowing content */
+    }
+
 .button1 {
   border: none;
   color: white; /* Change text color to white */
@@ -45,6 +50,7 @@ body {
         padding-top: 10px;
         width: 16rem; /* Set the desired width for the cards */
         height: 100%; /* Set the desired height for the cards */
+        
 }
 
 .movie-image {
